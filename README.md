@@ -2,23 +2,59 @@
 
 ## Project setup
 ```
-npm install
+npm i @coocaa/tt-front-lib
 ```
 
-### Compiles and hot-reloads for development
+## Usage
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+import '@cooca/tt-front-lib'
 ```
 
-### Lints and fixes files
-```
-npm run lint
+## Icon
+[image](images/icons.png)
+```html
+<tt-icon
+  icon="home | like | logo | message | photo | plus | profil | touitteur | unlike | search"
+  color="primary | secondary"
+  :ttstyle="<Object>"
+  size="1em"
+/>
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## button
+[image](images/buttons.png)
+```html
+<tt-button
+  type="plain | text"
+  icon="<iconName>"
+  color="primary | secondary"
+  iconMargin=".5em"
+  iconPlacement="left | right"
+  :ttstyle="<Object>"
+>
+  button text
+</tt-button>
+```
+
+## Input
+[image](images/inputs.png)
+```html
+<tt-button
+  placeholder="<placeholder>"
+  type="plain | stroke"
+  icon="<iconName>"
+  color="primary | secondary"
+  iconMargin=".5em"
+  iconPlacement="left | right"
+  :ttstyle="<Object>"
+></tt-input>
+```
+
+## Container
+you can use multiple border name separated by space
+```html
+<tt-container
+  :ttstyle="<Object>"
+  border="bottom | top | left | right | all"
+></tt-container>
+```

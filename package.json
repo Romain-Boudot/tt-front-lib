@@ -1,12 +1,19 @@
 {
-  "name": "tt-front-lib",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@coocaa/tt-front-lib",
+  "version": "0.1.2",
+  "main": "./dist/tt-front-lib.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name tt-front-lib ./src/components/index.js"
   },
+  "files": [
+    "dist/*.js",
+    "dist/*.js.map",
+    "dist/*.css",
+    "images/*"
+  ],
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
