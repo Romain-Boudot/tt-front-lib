@@ -11,7 +11,7 @@ import '@cooca/tt-front-lib'
 ```
 
 ## Icon
-[image](images/icons.png)
+[image](https://github.com/Yumi-Romain/tt-front-lib/blob/main/images/icons.png?raw=true)
 ```html
 <tt-icon
   icon="home | like | logo | message | photo | plus | profil | touitteur | unlike | search"
@@ -22,7 +22,7 @@ import '@cooca/tt-front-lib'
 ```
 
 ## button
-[image](images/buttons.png)
+[image](https://github.com/Yumi-Romain/tt-front-lib/blob/main/images/buttons.png?raw=true)
 ```html
 <tt-button
   type="plain | text"
@@ -37,7 +37,7 @@ import '@cooca/tt-front-lib'
 ```
 
 ## Input
-[image](images/inputs.png)
+[image](https://github.com/Yumi-Romain/tt-front-lib/blob/main/images/inputs.png?raw=true)
 ```html
 <tt-button
   placeholder="<placeholder>"

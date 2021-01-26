@@ -1,6 +1,6 @@
 {
   "name": "@coocaa/tt-front-lib",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "./dist/tt-front-lib.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
