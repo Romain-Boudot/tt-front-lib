@@ -7,14 +7,16 @@ npm i @coocaa/tt-front-lib
 
 ## Usage
 ```
-import '@cooca/tt-front-lib'
+import Vue from 'vue'
+import * as components from '@coocaa/tt-front-lib'
+Vue.use(components)
 ```
 
 ## Icon
 [image](https://github.com/Yumi-Romain/tt-front-lib/blob/main/images/icons.png?raw=true)
 ```html
 <tt-icon
-  icon="home | like | logo | message | photo | plus | profil | touitteur | unlike | search"
+  icon="home | like | logo | message | photo | plus | profil | touitteur | unlike | search | retweet"
   color="primary | secondary"
   :ttstyle="<Object>"
   size="1em"
