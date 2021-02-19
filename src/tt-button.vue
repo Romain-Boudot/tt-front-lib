@@ -1,7 +1,7 @@
 <template>
   <button
     class="tt-lib-btn"
-    v-on:input="$emit('click', $event)"
+    v-on:click="$emit('click', $event)"
     v-bind:class="{
       primary: isPrimary,
       secondary: isSecondary,

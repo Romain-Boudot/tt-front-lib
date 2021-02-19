@@ -1,6 +1,6 @@
 {
   "name": "@coocaa/tt-front-lib",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "./src/index.js",
   "scripts": {
     "serve": "npx vue-cli-service serve",
